@@ -1,0 +1,26 @@
+[
+    {
+      "completed": false,
+      "prompt": "What is your favorite color?",
+    },
+    {
+      "completed": false,
+      "prompt": "What is the capital of Australia?",
+    },
+    {
+      "completed": false,
+      "prompt": "What is your quest?",
+    },
+    {
+      "completed": false,
+      "prompt": "Why is the sky blue?",
+    },
+    {
+      "prompt": "8=2?",
+      "completed": false,
+    },
+    {
+      "prompt": "Why did the chicken cross the road?",
+      "completed": false,
+    }
+]
