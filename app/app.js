@@ -7,8 +7,9 @@ angular.module('meanCourseApp', ['ngRoute'])
 function($routeProvider, $locationProvider) {
   $routeProvider
   .when('/week/:weekId/module/:moduleId', {
-    templateUrl: function(urlattr){
-      return 'templates' + '/week' + urlattr.weekId + '/module' + urlattr.moduleId + '.html';
+    // When templateUrl is a function it takes an Array[] of route params.
+    templateUrl: function(urlparams){
+      return 'templates' + '/week' + urlparams.weekId + '/module' + urlparams.moduleId + '.html';
     },
     // templateUrl: 'templates/module.html',
     controller: 'mainCtrl'
